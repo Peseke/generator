@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../js/angular.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular-sanitize.js"></script>
+<script src="../js/mainWindow.js"></script>
+<meta charset="UTF-8">
+<title>MainWindow</title>
+</head>
+<body>
+	<div data-ng-app="myApp" data-ng-controller="myCtrl">
+		Full Name: {{firstName + " " + lastName}}
+		<span data-ng-bind-html="message"></span>
+
+	</div>
+
+	
+</body>
+</html>
